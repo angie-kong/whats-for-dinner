@@ -1,3 +1,6 @@
+// defines getRandomMeal (and other functions?)
+
+
 const BASE_URL = "https://www.themealdb.com/api/json/v1/1";
 
 async function getRandomMeal() {
@@ -9,8 +12,3 @@ async function getRandomMeal() {
         console.error("Error fetching random meal:", error);
     }
 }
-
-
-
-
-getRandomMeal().then(meal => console.log(meal));
